@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 350vh;
+    width:100%;
+    background-color: black;
+    background-size:contain;
+    background-position: left;
+    color: white;   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: gold;
+    font-size:35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #fae209
+}
+nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 10px 25px;
+    margin-top: -40px;
+}
+.lists{
+    color: #faf4f6;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.links:hover{
+    color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+}
+.container{
+    width: 70%;
+    margin-left: 255px;
+    margin-top: 80px;
+}
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width:100%;
+}
+.first-div{
+    margin-left: 195px;
+    margin-top: 45px;
+    width: 40%;
+    height: 50vh;
+}
+a{
+    color:#faf4f6;
+}
+a:hover{
+    color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+}
+.new-one{
+    border: 1px solid white;
+    width: 14%;
+    height: 19vh;
+    margin-left: 750px;
+    margin-top: -200px;
+    border-radius: 50px;
+    background-color:darkgrey;
+}
+.buttontoo{
+    background-color: gold;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 3px 5px; 
+    border-radius: 30px;
+    transition: .4s;
+    margin: 20%;
+    margin-bottom: 50%;
+}
+.buttontoo:hover{
+    background-color: transparent;
+    border: 2px solid gold;
+    cursor: pointer;
+}
+.new-two{
+    width: 10%;
+    margin-left: 700px;
+    margin-top: 150px;
+}
+.buttonthree{
+    background-color: gold;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 22px; 
+    border-radius: 30px;
+    transition: .4s;
+    margin: 20%;
+    margin-bottom: 50%;
+}
+.buttonthree:hover{
+    background-color: transparent;
+    border: 2px solid gold;
+    cursor: pointer;
+}
+.last-one{
+    background-color: #04011b;
+    margin-top:250px;
+}
+.last-images{
+    background-color: #04011b;
+    height: 10vh;
+    margin-top:-50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 450px;
+}
+.final-lists{
+    color: #faf4f6;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 350px;
+    margin-top: -50px;
+}

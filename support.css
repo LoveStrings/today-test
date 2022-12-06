@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100%;
+    width:100%;
+    background-color: black;
+    background-size:contain;
+    background-position: left;
+    color: white;   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: gold;
+    font-size:35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #faf4f6
+}
+nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 10px 25px;
+    margin-top: -40px;
+}
+.lists{
+    color: #faf4f6;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.links:hover{
+    color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+}
+a{
+    color:#faf4f6;
+}
+a:hover{
+    color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+}
+.new-two{
+    width: 10%;
+    margin-left: 700px;
+    margin-top: 150px;
+}
+.buttontoo{
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 3px 5px; 
+    border-radius: 30px;
+    transition: .4s;
+    margin: 20%;
+    margin-bottom: 50%;
+}
+.buttontoo:hover{
+    background-color: transparent;
+    border: 2px solid gold;
+    cursor: pointer;
+}
+.new-one{
+    border: 1px solid white;
+    width: 10%;
+    height: 10vh;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color:darkgrey;
+    align-items: center;
+}
+.new-support{
+    border: 1px solid white;
+    width: 10%;
+    height: 10vh;
+    margin-left: 100px;
+    margin-top: 300px;
+    border-radius: 20px;
+    background-color:darkgrey;
+    align-items: center;
+}
+.new-member{
+    border: 1px solid white;
+    width: 10%;
+    height: 10vh;
+    margin-left: 100px;
+    margin-top: 300px;
+    border-radius: 20px;
+    background-color:darkgrey;
+    align-items: center;
+}
+.last-one{
+    background-color: #04011b;
+    margin-top:250px;
+}
+.last-images{
+    background-color: #04011b;
+    height: 10vh;
+    margin-top:-50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 450px;
+}
+.final-lists{
+    color: #faf4f6;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 350px;
+    margin-top: -50px;
+}
